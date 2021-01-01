@@ -3,7 +3,8 @@ def using_concat(x, y)
 end
 
 def using_insert(array, element)
-  array.insert(element)
+  array.insert(4, element)
+end
 
 describe "using_insert" do 
   before(:each) do 
