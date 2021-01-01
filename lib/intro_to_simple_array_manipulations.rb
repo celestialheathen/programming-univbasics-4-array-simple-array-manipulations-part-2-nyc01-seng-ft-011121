@@ -1,5 +1,5 @@
 def using_concat(x, y)
-  x.concat(y)
+  return x.concat(y)
 end
 
 describe "using_concat" do 
